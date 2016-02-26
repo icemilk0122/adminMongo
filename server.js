@@ -134,6 +134,9 @@ app.use(function (err, req, res, next) {
 
 
 // lift the app
-app.listen(process.env.PORT);
+var port = process.env.PORT || 1337;
+app.listen(port, function () {
+    console.log('adminMongo listening on host: http://localhost:' + port);
+});
 
 module.exports = app;
