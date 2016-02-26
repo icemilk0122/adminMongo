@@ -1,1 +1,7 @@
-{}
+{
+  "connections": {
+    "goodbuy_product_dev": {
+      "connection_string": "mongodb://icemilk0122:b9027003@ds062898.mongolab.com:62898/goodbuy_product_dev"
+    }
+  }
+}
